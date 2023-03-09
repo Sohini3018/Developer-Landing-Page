@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.toppart {
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topnm {
+    color: aliceblue;
+    font-size: 45px;
+    margin-left: 500px;
+    letter-spacing: 0.2px;
+    padding-top: 60px;
+    font-weight: 400;
+}
+
+.about {
+    font-size: 50px;
+    color: beige;
+    background-color: black;
+    padding-left: 25%;
+}
+
+.lg_text {
+    font-size: 100px;
+}
+
+.sm_text {
+    font-size: 40px;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
